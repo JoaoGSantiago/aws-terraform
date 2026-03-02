@@ -37,8 +37,7 @@ A arquitetura foi projetada para garantir alta disponibilidade e resiliência, u
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/JulioMourajr/Compass-PB-NOV2024-Docker
-    cd Compass-PB-NOV2024-Docker
+    git clone https://github.com/JoaoGSantiago/aws-terraform
     ```
 
 2. Inicialize o Terraform:
