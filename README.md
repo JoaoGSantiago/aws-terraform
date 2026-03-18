@@ -1,8 +1,6 @@
-# 📚 Atividade 2 Docker PB - NOV 2024 Turma DevSecOps
+#  Projeto Terraform para Infraestrutura AWS
 
-## 🌐 Projeto Terraform para Infraestrutura AWS
-
-## 📄 Descrição
+##  Descrição
 
 Este projeto foi desenvolvido com o objetivo de criar uma infraestrutura robusta e escalável na AWS, garantindo alta disponibilidade para a aplicação WordPress. Utilizando uma combinação de tecnologias modernas, conseguimos proporcionar uma solução eficiente e resiliente, capaz de atender a demandas variáveis de tráfego e garantir a continuidade do serviço. Decidimos utilizar Terraform para provisionar uma infraestrutura na AWS, uma ferramenta muito conhecida e com uma documentação muito abrangente. Infraestrutura como código (IaC) que o provisionamento e o gerenciamento de recursos de infraestrutura de maneira declarativa e automatizada.
 
@@ -16,7 +14,7 @@ Este projeto foi desenvolvido com o objetivo de criar uma infraestrutura robusta
 - **Docker:** Facilita a criação, implantação e execução de aplicações em contêineres, garantindo consistência e portabilidade.
 - **Docker Compose:** Simplifica a configuração e a orquestração dos serviços.
 
-## 🏗️ Arquitetura de Alta Disponibilidade
+##  Arquitetura de Alta Disponibilidade
 
 A arquitetura foi projetada para garantir alta disponibilidade e resiliência, utilizando os seguintes componentes:
 
@@ -27,13 +25,13 @@ A arquitetura foi projetada para garantir alta disponibilidade e resiliência, u
 - **Resiliência:** Arquitetura distribuída e redundante que garante a continuidade do serviço mesmo em caso de falhas em componentes individuais.
 - **Eficiência Operacional:** Automação de tarefas de provisionamento, configuração e gerenciamento de infraestrutura, reduzindo a carga operacional e minimizando erros humanos.
 
-## 🚀 Pré-requisitos
+##  Pré-requisitos
 
 - Instale o [Terraform](https://www.terraform.io/downloads.html) v1.10.5 ou superior
 - Conta AWS com permissões adequadas
 - Chave SSH para acesso às instâncias EC2
 
-## 💻 Instalação
+##  Instalação
 
 1. Clone o repositório:
     ```sh
@@ -56,7 +54,7 @@ A arquitetura foi projetada para garantir alta disponibilidade e resiliência, u
 
 2. Ajuste as variáveis no arquivo [variables.tf](https://medium.com/@habbema/terraform-variables-e2f46ebe3f32) conforme necessário.
 
-## 🛠️ Uso
+##  Uso
 
 1. Planeje a infraestrutura:
     ```sh
@@ -68,7 +66,7 @@ A arquitetura foi projetada para garantir alta disponibilidade e resiliência, u
     terraform apply -auto-approve
     ```
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 ![Arquitetura do Projeto](./Arquitetura.png)
 
@@ -89,7 +87,7 @@ A arquitetura foi projetada para garantir alta disponibilidade e resiliência, u
 
 ![Arquitetura do Projeto 2](./Arquirtetura2.png)
 
-## 📈 Melhorias
+##  Melhorias
 
 ### Monitoramento
 
